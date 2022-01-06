@@ -1,0 +1,7 @@
+
+
+>> Navigation bar comfirm
+>> Gallary comfirm
+
+>> issues: main section hava some problems with responsive layout 
+>> so pasting all section's codes to section.html and section.css

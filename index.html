@@ -1,200 +1,44 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <meta name="author" content="Harshad Patel">
-    <title>Cab Hire in Ahmedabad | Aai Shree Khodiyar Tour & Travelles </title>
-    <meta name="description"
-        content="We are providing Gujarat's best Cab booking Service in best Prices, Our Traveles Agency have too many years of experience.">
-    <meta name="keywords" content="Tour, Traveles, Cab Booking">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Navigation bar</title>
 </head>
 
 <body>
     <header>
-        <div class="top">
+        <div class="container">
             <div class="title">
-                <img src="img/Line 2.png" alt="" id="title-line">
+                <img src="/CabHire-Web/img/Line 2.png" alt="" id="title-line">
                 <h1 id="title_text">Cab Hire In Ahmedabad</h1>
-                <div id="white-box"></div>
             </div>
-            <div>
-                <nav class="navbar" id="myTopnav">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Service</a></li>
-                        <li><a href="gallary.html" target="_blank">Gallary</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
+            <nav class="navbar" id="myTopnav">
+                <ul>
+                    <li><a href="#" class="is-active">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Gallary</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="#" class="is-active">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Gallary</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </div>
         </div>
     </header>
-    <section class="background">
-        <div class="text">
-            <h1 id="middle-text1"><span>Aai Shree Khodiyar</span></h1>
-            <img src="img/Line 1.png" alt="" id="middle-line">
-            <h1 id="middle-text2"><span>Tour & Travelles</span></h1>
-        </div>
-        <div bottom2>
-            <img src="img/cloud1.png" alt="" id="cloud1" class="bg">
-            <img src="img/cloud2.png" alt="" id="cloud2" class="bg">
-            <img src="img/sun.png" alt="" id="sun" class="bg">
-            <img src="img/mountain.png" alt="" id="mountain" class="bg">
-            <img src="img/Car.png" alt="" id="car" class="bg">
-        </div>
-    </section>
-    <div class="About1" id="about">
-        <div class="bottom">
-            <h1 id="bottom-title">About US</h1>
-            <p class="bottom-desc">Aai Shree Khodiyar Tour & Travels has gained its reputation by introducing a highly professional
-                approach to our business with professional drivers and office personnel who responsible for
-                assuring
-                schedules are met and vehicles are constantly inspected and maintained to the utmost standards.</p>
-            <p class="bottom-desc">We are committed to providing our customers with the best possible rides within their locations
-                by
-                established reasonable competitive rates and offer flat rates to and from the airports and big
-                stations.</p>
-            <p class="bottom-desc">We firmly believe that the more you know, the more likely you will choose to ride with Aai Shree
-                Khodiyar Tour & Travels.</p>
-        </div>
-        <div class="img-slider">
-            <div class="slide active">
-                <img src="slider_img/1.jpg" alt="">
-                <div class="info">
-                    <h2>Slide 01</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
-                </div>
-            </div>
-            <div class="slide">
-                <img src="slider_img/2.jpg" alt="">
-                <div class="info">
-                    <h2>Slide 02</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
-                </div>
-            </div>
-            <div class="slide">
-                <img src="slider_img/3.jpg" alt="">
-                <div class="info">
-                    <h2>Slide 03</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
-                </div>
-            </div>
-            <div class="slide">
-                <img src="slider_img/4.jpg" alt="">
-                <div class="info">
-                    <h2>Slide 04</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
-                </div>
-            </div>
-            <div class="slide">
-                <img src="slider_img/5.jpg" alt="">
-                <div class="info">
-                    <h2>Slide 05</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
-                </div>
-            </div>
-            <div class="navigation">
-                <div class="btn active"></div>
-                <div class="btn"></div>
-                <div class="btn"></div>
-                <div class="btn"></div>
-                <div class="btn"></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Image Slider End............. -->
-
-    <!-- ..................................JavaScript Section Here............................................... -->
-    <!-- Image slider JavaScript Start...... -->
-    <script type="text/javascript">
-        var slides = document.querySelectorAll('.slide');
-        var btns = document.querySelectorAll('.btn');
-        let currentSlide = 1;
-
-        // Javascript for image slider manual navigation
-        var manualNav = function (manual) {
-            slides.forEach((slide) => {
-                slide.classList.remove('active');
-
-                btns.forEach((btn) => {
-                    btn.classList.remove('active');
-                });
-            });
-
-            slides[manual].classList.add('active');
-            btns[manual].classList.add('active');
-        }
-
-        btns.forEach((btn, i) => {
-            btn.addEventListener("click", () => {
-                manualNav(i);
-                currentSlide = i;
-            });
-        });
-
-        // Javascript for image slider autoplay navigation
-        var repeat = function (activeClass) {
-            let active = document.getElementsByClassName('active');
-            let i = 1;
-
-            var repeater = () => {
-                setTimeout(function () {
-                    [...active].forEach((activeSlide) => {
-                        activeSlide.classList.remove('active');
-                    });
-
-                    slides[i].classList.add('active');
-                    btns[i].classList.add('active');
-                    i++;
-
-                    if (slides.length == i) {
-                        i = 0;
-                    }
-                    if (i >= slides.length) {
-                        return;
-                    }
-                    repeater();
-                }, 2000);
-            }
-            repeater();
-        }
-        repeat();
-    </script>
-
-    <!-- Image slider JavaScript End...... -->
-
-    <!-- .......................bottom animation Start................... -->
-    <script>
-        let cloud1 = document.getElementById("cloud1");
-        let cloud2 = document.getElementById("cloud2");
-        let sun = document.getElementById("sun");
-        let car = document.getElementById("car");
-        let title_text = document.getElementById("title_text");
-
-        window.addEventListener('scroll', function () {
-            let value = window.scrollY;
-
-            cloud1.style.left = value * -0.5 + 'px';
-            cloud2.style.left = value * 0.5 + 'px';
-            car.style.left = value * -0.5 + 'px';
-            sun.style.left = value * 1 + 'px';
-        })
-    </script>
-    <!-- .......................bottom animation End................... -->
-    
+    <script src="index.js"></script>
 </body>
 
 </html>

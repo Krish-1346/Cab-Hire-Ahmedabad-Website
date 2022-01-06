@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Navigation bar</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="title">
+                <img src="/CabHire-Web/img/Line 2.png" alt="" id="title-line">
+                <h1 id="title_text">Cab Hire In Ahmedabad</h1>
+            </div>
+            <nav class="navbar" id="myTopnav">
+                <ul>
+                    <li><a href="#" class="is-active">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Gallary</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/products">Products</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="background">
+        <div class="text">
+            <h1 id="middle-text1"><span>Aai Shree Khodiyar</span></h1>
+            <img src="img/Line 1.png" alt="" id="middle-line">
+            <h1 id="middle-text2"><span>Tour & Travelles</span></h1>
+        </div>
+        <div id="bg">
+            <img src="img/cloud1.png" alt="" id="cloud1" class="bg">
+            <img src="img/cloud2.png" alt="" id="cloud2" class="bg">
+            <img src="img/sun.png" alt="" id="sun" class="bg">
+            <img src="img/mountain.png" alt="" id="mountain" class="bg">
+            <img src="img/Car.png" alt="" id="car" class="bg">
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script>// <!-- .......................bottom animation Start................... -->
+        let cloud1 = document.getElementById("cloud1");
+        let cloud2 = document.getElementById("cloud2");
+        let sun = document.getElementById("sun");
+        let car = document.getElementById("car");
+        let title_text = document.getElementById("title_text");
+    
+        window.addEventListener('scroll', function () {
+            let value = window.scrollY;
+    
+            cloud1.style.left = value * -0.5 + 'px';
+            cloud2.style.left = value * 0.5 + 'px';
+            car.style.left = value * -0.5 + 'px';
+            sun.style.left = value * 1 + 'px';
+        })
+    
+    // <!-- .......................bottom animation End................... -->
+    </script>
+
+    <script>
+        function toggleMobileMenu(menu) {
+    menu.classList.toggle('open');
+}
+    </script>
+</body>
+
+</html>
