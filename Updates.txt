@@ -3,5 +3,9 @@
 >> Navigation bar comfirm
 >> Gallary comfirm
 
->> issues: main section hava some problems with responsive layout 
->> so pasting all section's codes to section.html and section.css
+>> issues 1: main section hava some problems with responsive layout 
+// so pasting all section's codes to section.html and section.css
+-- issues status : solved
+
+>> Responsive middle section added (main section)
+>> footer added (tailwind css used in footer)
